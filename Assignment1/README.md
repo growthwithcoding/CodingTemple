@@ -12,7 +12,7 @@ This project is a hands-on HTML assignment to test your HTML skills. You will be
 
 ## 🎨 Color Reference
 
-| Color Name              | Hex Code (Preview)                                                                |
+| Color Name              | Hex Code With Preview                                                                |
 |-------------------------|--------------------------------------------------------------------------|
 | Coding Temple Teal      | ![](https://img.shields.io/badge/%20-%2300E1C8?style=flat&logoColor=white) `#00E1C8` |
 | CT Green Gradient Dark  | ![](https://img.shields.io/badge/%20-%23024C48?style=flat&logoColor=white) `#024C48` |
