@@ -5,6 +5,9 @@
 
 This project is a hands-on HTML assignment to test your HTML skills. You will begin by building a fully functioning HTML5 Website. Your site will include a simple navigation, a basic contact form, a table to display sample products, and images. 
 
+## ✍️ Personal Contribution
+As someone who has used HTML for years and considers themselves proficient, I found it harder than expected to build a simple project for grading, but I gained valuable insight in the process. What I did different than usuall was the fact that I took my time on this assignment. I finished the "assigned work" quickly, but did not turn it in. Having this assignment done, I then thought on how I really wanted to do this assignment and re-read over the course work. The README.MD section really stood out and I slowly developed it into a little bit of me, something I could reuse elements on future assignments and something I was proud of.
+
 ## Authors
 
 - [Austin Carlson](https://www.growthwithcoding.com)
