@@ -14,7 +14,7 @@ This project is a hands-on HTML assignment to test your HTML skills. You will be
 
 | Color Name              | Hex Code   | Preview                                                  |
 |-------------------------|------------|----------------------------------------------------------|
-| Coding Temple Teal      | `#00E1C8`  | ![](https://img.shields.io/badge/%20-%2300E1C8?style=flat&logoColor=white) `#00E1C8` |
+| Coding Temple Teal      | ![](https://img.shields.io/badge/%20-%2300E1C8?style=flat&logoColor=white) `#00E1C8` |
 | CT Green Gradient Dark  | `#024C48`  | ![](https://img.shields.io/badge/%20-%23024C48?style=flat&logoColor=white) `#024C48` |
 | CT Badge Outline Gray   | `#282B2D`  | ![](https://img.shields.io/badge/%20-%23282B2D?style=flat&logoColor=white) `#282B2D` |
 | Soft Black Background   | `#0E0E0E`  | ![](https://img.shields.io/badge/%20-%230E0E0E?style=flat&logoColor=white) `#0E0E0E` |
