@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- <head> Section sets all the metadata for the page. -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- EXTRA: Added an author tag. For the assignment it felt right, just like being back in school. -->
+    <meta name="author" content="Austin Carlson" />
+    <title>Module 1 HTML Assignment</title>
+  </head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <h1>Module 1 HTML Assignment 1</h1>
+
+    <!-- Part 1: Contact Form -->
+    <section>
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <!-- BONUS: Radio buttons for site discovery -->
+        <form action="/submit-form" method="POST">  
+          <fieldset>
+            <legend>How did you find us?</legend>
+            <label><input type="radio" name="referrer" value="Google"> Google</label>
+            <label><input type="radio" name="referrer" value="Social Media"> Social Media</label>
+            <label><input type="radio" name="referrer" value="Friend"> Friend</label>
+          </fieldset>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Part 2: Product Table -->
+    <section>
+      <h2>Product Inventory</h2>
+      <table>
+        <!-- BONUS: Header Row -->
+        <thead>
+          <tr>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Wireless Mouse</td>
+            <td>$25.99</td>
+            <td>14</td>
+          </tr>
+          <tr>
+            <td>Bluetooth Speaker</td>
+            <td>$45.00</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>USB-C Charger</td>
+            <td>$19.99</td>
+            <td>22</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Part 4: Images -->
+    <section>
+      <h2>Gallery</h2>
+      <!-- Placeholder Image -->
+      <img src="https://placehold.co/300x200" alt="Placeholder Image">
+
+      <!-- BONUS: Rounded border image -->
+      <img src="https://placehold.co/300x200" alt="Rounded Placeholder" class="rounded" style="margin-left: 20px;">
+    </section>
+  </main>
+
+</body>
+</html>
+
+   

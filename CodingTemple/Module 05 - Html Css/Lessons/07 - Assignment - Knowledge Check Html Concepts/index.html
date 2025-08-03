@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Module 1 HTML Assignment</title>
+
+  <!-- Author tag makes this assignment feel like I am in school -->
+  <meta name="author" content="Austin Carlson" />
+
+  <!-- I felt a cleaner approach was using a separate CSS file -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+    <!-- Contact Form -->
+    <section>
+    <h2>Contact Us</h2>
+    <form>
+    <!-- Wrapping both form columns for cleaner layout -->
+    <div style="display: flex; gap: 24px; flex-wrap: wrap;">
+        
+        <!-- Left side: Name and Email -->
+        <!-- This keeps our form looking clean and natural -->
+        <div style="flex: 1 1 45%;">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+        </div>
+
+        <!-- Right side: Message -->
+        <!-- Message gets its own space to breathe -->
+        <div style="flex: 1 1 45%;">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6"></textarea>
+        </div>
+    </div>
+
+    <!-- Bonus: Radio Button Group -->
+    <!-- This centering is done using in-line CSS -->
+    <!-- I made the answers fun on the front end, but kept the values clean for the back end.
+        The server still expects "social", even if the user picks "Doom-Scrolling" -->
+    <div style="text-align: center; margin: 20px 0;" class="radio-options">
+        <p><strong>How did you find this site?</strong></p>
+        <label><input type="radio" name="source" value="google" /> Panicked Googling</label>
+        <label><input type="radio" name="source" value="social" /> Doom-Scrolling</label>
+        <label><input type="radio" name="source" value="mom" /> Mom told me</label>
+        <label><input type="radio" name="source" value="billboard" /> Saw it on a billboard</label>
+        <label><input type="radio" name="source" value="friend" /> Peer Pressure (a.k.a. my friend)</label>
+    </div>
+
+    <!-- Button aligned to the right side of the form -->
+    <!-- We're floatin' right for flair and fun -->
+    <div style="text-align: right;">
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+    </section>
+
+<!-- Program Table -->
+<!-- I know it only asked for Product Name, Price, and Quantity... 
+     but I  added Duration/Format to give the lesson more purpose -->
+    <table>
+    <thead>
+        <tr>
+        <th>Program Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Duration / Format</th> <!-- Extra info for the curious -->
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td>Software Engineering (Flex)</td>
+        <td>$9,500</td>
+        <td>10 seats</td>
+        <td>6 months, self-paced</td>
+        </tr>
+        <tr>
+        <td>Data Analytics</td>
+        <td>$10,495</td>
+        <td>8 seats</td>
+        <td>Online, self-paced</td>
+        </tr>
+        <tr>
+        <td>Cybersecurity</td>
+        <td>$5,000</td>
+        <td>6 seats</td>
+        <td>Part-time, 26 weeks</td>
+        </tr>
+    </tbody>
+    </table>
+
+  <!-- Image Section -->
+  <section>
+    <h2>Image Examples</h2>
+    <img src="https://placehold.co/300x200" alt="Placeholder image" />
+    
+    <!-- Bonus: Rounded Image using inline style -->
+    <img src="https://placehold.co/300x200" alt="Rounded placeholder" style="border-radius: 8px; border: 1px solid #ccc;" />
+  </section>
+
+  <!-- Footer with a little flare -->
+  <footer>
+    Made using <a href="https://codingtemple.com/software-engineering" target="_blank">Coding Temple Software Engineering Boot Camp</a>.
+  </footer>
+
+</body>
+</html>
